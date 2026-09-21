@@ -1,0 +1,9 @@
+{
+  "[project]/components/BatchBackgroundRemover.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/BatchBackgroundRemover.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_jszip_lib_index_0phk_3e.js",
+      "static/chunks/components_BatchBackgroundRemover_07bu157.js"
+    ]
+  }
+}

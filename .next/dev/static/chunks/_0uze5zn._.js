@@ -1,0 +1,24 @@
+(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/components/BatchBackgroundRemover.js [app-client] (ecmascript, next/dynamic entry, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/node_modules_jszip_lib_index_0hmx2ty.js",
+  "static/chunks/components_BatchBackgroundRemover_07bu157.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/components/BatchBackgroundRemover.js [app-client] (ecmascript, next/dynamic entry)");
+    });
+});
+}),
+"[project]/node_modules/@imgly/background-removal/dist/index.mjs [app-client] (ecmascript, async loader)", ((__turbopack_context__) => {
+
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "static/chunks/node_modules_onnxruntime-web_dist_1nrgsek._.js",
+  "static/chunks/node_modules_@imgly_background-removal_dist_index_mjs_1nmfcb2._.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/node_modules/@imgly/background-removal/dist/index.mjs [app-client] (ecmascript)");
+    });
+});
+}),
+]);
