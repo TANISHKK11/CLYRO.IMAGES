@@ -2,6 +2,7 @@ import { Bricolage_Grotesque, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import { siteConfig } from "@/lib/config";
+import { Analytics } from "@vercel/analytics/next";
 
 const display = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
           <div className="ambient-b absolute -right-[15%] top-[20%] h-[45vmax] w-[45vmax] rounded-full bg-neutral-400/[0.10] blur-[130px]" />
         </div>
         {children}
+        <Analytics />
       </body>
     </html>
   );
